@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  /*background: url('./assets/brick-wall-1175940 (1).jpg');
+	background-size: cover;*/
+  background: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  position: relative;
+  height: 80%;
+  width: 70%;
+  top: 10%;
+  left: 15%;
+  background: white;
+}
+
+.h1-style {
+  text-align: center;
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: 500;
+  color: rgb(5, 5, 5);
+  text-decoration: important;
+}
+
+.p-style {
+  text-align: center;
+  font-size: 3rem;
+  font-family: cursive;
+  color: #080808;
+  margin-top: -10px;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  color: black;
+  text-align: center;
+  font-family: unset;
+  border: none;
+  background: #efefef;
+}
+
+.submit-button {
+  background: green;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+}
+
+hr {
+  color: white;
+}
+
+.form-desc {
+  margin-top: 1.5rem;
+  font-weight: 400;
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#files-container {
+  width: 100%;
+  height: 50%;
+  overflow: auto;
+  background: white;
+  margin: auto;
+}
+
+.file {
+  width: 60%;
+  height: 20%;
+  margin: auto;
+  background: #f1fc62;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.9rem;
+}
+
+.file-name {
+  color: black;
+  width: 75%;
+}
+
+.file-open-button {
+  background: #00e1ff;
+  width: 3rem;
+  text-align: center;
+}
+
+.file-open-button:hover {
+  opacity: 0.5;
+}
+
+.file-open-button a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.file a {
+  text-decoration: none;
+  color: rgb(243, 55, 55);
+  margin-top: 0.1rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 9px;
+  }
+  main {
+    height: 80%;
+    width: 90%;
+    top: 5%;
+    left: 5%;
+  }
+  #files-container {
+    width: 80%;
+  }
+  .file {
+    width: 90%;
+    height: 15%;
+    padding: 1.2rem;
+  }
+  .file-open-button a {
+    font-size: 0.8rem;
+  }
+
+  .file-open-button {
+    width: 3rem;
+    height: 2rem;
+    padding-top: 0.2rem;
+  }
+  .h1-style {
+    margin-top: 1rem;
+  }
+}
